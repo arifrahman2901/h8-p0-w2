@@ -1,6 +1,9 @@
 function balikKata(kata){
- /*       return kata.split('').reverse().join('');*/
+ 
+/* Menggunakan reverse
+return kata.split('').reverse().join(''); */
 
+/* Menggunakan looping */
 var str='';
 for(var i = kata.length -1; i> 0; i --){
         str+=kata[i];
